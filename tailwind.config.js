@@ -20,7 +20,7 @@ module.exports = {
         myindigo: '#4F56F6',
         myindigo2: '#4045C3',
         hotpink: '#F11AA8',
-        mywhite: '#FAFAFA',
+        lightBlue: '#C9F8F6',
         navy: '#0D052E',
         gradient:'linear-gradient(to right, #4F56F6, #F11AA)',
       },
