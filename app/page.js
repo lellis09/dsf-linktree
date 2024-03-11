@@ -4,11 +4,11 @@ import profilePic from '../public/20210327_150727(1).jpg'
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center bg-gradient-to-b from-myTeal to bg-myindigo2  px-12">
+    <main className="flex h-screen flex-col items-center bg-navy  px-12">
       {/* <div className='bg-lightgreen h-40 w-full'>
       </div> */}
-      <section className='flex flex-col  items-center mt-10 lg:mt-16 pt-12 w-full max-w-[42rem] lg:w-1/2'>
-        <div className='rounded-full bg-teal-500 w-24 h-24 lg:w-48 lg:h-48 border-4 border-lightgreen overflow-hidden relative'>
+      <section className='flex flex-col  items-center mt-10 lg:mt-16 pt-12 w-full md:w-1/2'>
+        <div className='rounded-full bg-teal-500 w-32 h-32 lg:w-48 lg:h-48 border-2 overflow-hidden relative'>
           <Image 
             src={profilePic}
             alt= "picture of the owner of page"
